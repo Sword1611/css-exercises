@@ -1,0 +1,23 @@
+.paragraph {
+    color: black;
+    background-color: lightcoral;
+     font-family: Verdana, "DejaVu Sans", sans-serif;
+    
+}
+
+.paragraph.cooler {
+    font-size: 26px
+}
+
+#div_1 {
+    color: blue;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#div_2 {
+    color: black;
+    background-color: lightgreen;
+    font-size: 20px;
+    font-weight: bold;
+}
