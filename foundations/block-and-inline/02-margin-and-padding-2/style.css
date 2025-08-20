@@ -20,7 +20,7 @@ body {
 .content {
   background: #e3f4ff;
   margin: 8px;
-  padding: 16px 8px;
+  padding: 16px 8px; /* First value is top/bottom second value is left/right */
   /* padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 8px;
