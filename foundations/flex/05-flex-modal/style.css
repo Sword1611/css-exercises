@@ -80,10 +80,10 @@ button.cancel {
   /* border: solid red 2px; */
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-text {
-  margin: 10px 0;
-  display: flex;
-  flex-wrap: nowrap;
+.text {
+  margin-bottom: 10px;
 }
