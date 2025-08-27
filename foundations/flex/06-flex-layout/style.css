@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  /* border: solid 2px red; */
+}
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -24,3 +31,60 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Solution ko */
+
+/* Set the footer and header to flex and added padding. */
+.header,
+.footer {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+/* Remove the underlines. */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Remove the bullet points. */
+li {
+  list-style-type: none;
+}
+/* 
+  -Make the links horizontal. 
+  -Set padding to 0, to reset.
+  -Center
+  -Gap 20px
+*/
+.left-links,
+.right-links {
+  padding: 0;
+  margin: 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+/* 
+  -Set display to flex.
+  -Set direction column.
+  -Center 
+*/
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  padding: 8px;
+}
+
+
