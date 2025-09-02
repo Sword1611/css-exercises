@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   min-height: 100vh;
 }
@@ -24,6 +24,76 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+}
+
+/* SOLUSYON */
+
+/* * {
+  border: solid 2px red;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  margin: 0;
+  padding: 16px;
+}
+
+.main-container{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  display: flex;
+  padding: 16px;
+  margin: 0;
+  width: 300px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.card-container{
+  display: flex;
+  padding: 48px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
