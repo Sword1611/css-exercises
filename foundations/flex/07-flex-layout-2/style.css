@@ -31,67 +31,65 @@ body {
 /* SOLUSYON */
 
 /* * {
-  border: solid 2px red;
+  border: solid 1px red;
 } */
 
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
+/* HEADER */
 .header {
   display: flex;
-  font-size: 32px;
-  font-weight: 900;
   align-items: center;
-  margin: 0;
-  padding: 16px;
+  font-size: 32px;
+  padding-left: 16px;
+  font-weight: 900;
 }
 
-.main-container{
+/* MAIN CONTENT  */
+.main-container {
   display: flex;
   flex: 1;
 }
 
+/* SIDEBAR */
 .sidebar {
-  display: flex;
   padding: 16px;
-  margin: 0;
-  width: 300px;
-  flex-direction: column;
   flex-shrink: 0;
 }
 
 ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
-  list-style-type: none;
+  margin-bottom: 16px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   font-size: 24px;
 }
 
-.card-container{
+/* MAIN CONTAINER WITH CARDS  */
+.card-container {
   display: flex;
-  padding: 48px;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 36px;
+  padding: 48px;
+  gap: 28px;
 }
 
 .card {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
+  padding: 16px;
+  width: 300px;
 }
 
+/* FOOTER */
 .footer {
   display: flex;
   justify-content: center;
